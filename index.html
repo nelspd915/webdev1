@@ -40,6 +40,10 @@
             background-color: azure;
             padding: 0 0 0 10px;
         }
+        
+        #topline > * {
+            display: inline;
+        }
     </style>
 </head>
 
@@ -59,10 +63,14 @@
     
     <!-- The header for my web map -->
     <div id="header">
-        <!-- The title for my map -->
-        <h2>My First Leaflet Map</h2>
+        <div id="topline">
+            <!-- The title for my map -->
+            <h2>My First Leaflet Map</h2>
+            <a href="https://leafletjs.com">I built this with Leaflet</a>
+        </div>
         <!-- Course information for my map -->
         <h5>Nels Danielson | GIS 4533 | Fall 2018</h5>
+        <a href="https://leafletjs.com">I built this with Leaflet</a>
     </div>
 
     <!-- the container for our map -->
